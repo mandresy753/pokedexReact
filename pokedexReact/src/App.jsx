@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import SearchHeader from "./components/SearchHeader";
 import PokemonCard from "./components/PokemonCard";
+import AddCard from "./components/AddCard"
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -197,6 +198,9 @@ const App = () => {
           </div>
         )}
      <Footer/>
+     <div>
+      <AddCard/>
+     </div>
     </div>
   </div>
     
